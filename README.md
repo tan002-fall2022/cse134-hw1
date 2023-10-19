@@ -138,12 +138,17 @@ Changing the user's agent to iPhone will show trending searches instead of usual
 25) **X-Transaction-Id**: the ID of the client that makes transaction to the server.
 
 ### Question 11:
-**Check "screenshots" folder for the full PDFs of the 2 audits!**
-From the audit, the top 2 suggestions are:
+**ucsd.edu's audit:**\
+![](screenshots/ucsd_audit.png)\
+From the audit, the top 2 suggestions are:\
+![](screenshots/ucsd_audit_suggestions.png)\
 1) Serve image in next-gen formats: ucsd.edu is still serving image in PNG or JPEG. On the other hand, WebP and AVIF have better compression and as a result are more lightweight.
 2) Eliminate render-blocking resources: Consider delivering critical JS/CSS first and non-critical JS/styles later.
 
+**sdsu.edu's audit:**\
+![](screenshots/sdsu_audit.png)\
 ucsd.edu scores only 55 in performance, whereas sdsu.edu scores 83. Although sdsu.edu also has big problem with inefficient image formats, it has less complaints in overall. 
+![](screenshots/sdsu_audit_suggestions.png)\
 
 ### Question 12:
 **Chrome platform status**: https://chromestatus.com/roadmap
